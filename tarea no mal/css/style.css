@@ -1,0 +1,60 @@
+body{
+    background-image: url(http://img13.deviantart.net/2442/i/2006/128/1/b/linux_wallpaper_by_shog_un.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size:100%;
+}
+
+table{
+
+	border-collapse: collapse;
+	width:100%
+
+}
+
+p{
+	color: white;
+}
+
+td {
+    	text-align: center;
+	
+}
+
+
+
+#header td:nth-child(even){ background-color: grey; }
+#header td:nth-child(odd){ background-color: white;}
+
+
+
+#alfa {background-color: rgba(255, 255, 255, 0.5);} 
+
+a:link {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: none;
+font-size:15px;
+}
+a:visited {
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+a:hover {
+    color: blue;
+    background-color: transparent;
+    text-decoration: underline;
+}
+a:active {
+    color: green;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+iframe {
+    border: none;
+
+ 
+}
